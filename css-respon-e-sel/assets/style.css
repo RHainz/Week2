@@ -1,0 +1,71 @@
+/*.lista > li {
+    color: red;
+}
+só afeta descendente direto
+*/
+
+lista li{
+    color:aliceblue;
+}
+
+#linha {
+    background-color: blue;
+}
+
+div {
+    background-color: green;
+}
+
+
+#linha + div {
+    background-color: yellow;
+}
+
+button[type="button"] {
+    color: brown;
+}
+
+.card {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    background-color: cornflowerblue;
+}
+
+.container {
+    display:flex;
+    flex-direction:row;
+    gap:0px;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width:50%vw;
+    height:50%vh;
+}
+
+.exemplo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: green;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: red;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: purple;
+    }
+}
+
+
+

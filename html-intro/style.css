@@ -1,0 +1,28 @@
+/* Seletor de tag - aplica em todas as tags. */
+
+h1{
+    color: red;
+}
+
+/* */
+/*Cascata - reescreve quando tem a mesma força. Important força o poder. Não é boa prática.*/
+
+h1 {
+    color: green;
+}
+
+/* Seletor por ID. */
+
+#titulo {
+    color:blueviolet;
+}
+
+/* Seletor por classes */
+
+.container {
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    
+}
