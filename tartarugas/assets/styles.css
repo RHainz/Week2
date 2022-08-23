@@ -1,0 +1,17 @@
+.areaPersonagem {
+    border: 1px solid white;
+    display: flex;
+    position:relative;
+}
+
+.areaPersonagem p{
+    color: beige;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40;
+    width:100px;
+    height:100px;
+    padding:0;
+    margin:0;
+    border: 1px solid yellow;
+}
